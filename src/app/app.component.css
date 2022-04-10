@@ -1,3 +1,22 @@
+
+.body{
+  background-image: url('/src/app/obrazTla.jpg');
+
+}
+.header{
+
+  margin-bottom: 0%;
+}
 h1{
+
   text-align: center;
 }
+
+footer{
+  text-align: center;
+}
+.container{
+
+text-align: center;
+  }
+

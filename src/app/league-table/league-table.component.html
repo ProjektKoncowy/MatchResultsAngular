@@ -1,1 +1,4 @@
-<p>league-table works!</p>
+<div class="list-group">
+  <button *ngFor="let league of listLeague" class="list-group-item list-group-item-action active"
+    aria-current="true">{{league.getName()}}</button>
+</div>

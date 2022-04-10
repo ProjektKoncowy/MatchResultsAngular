@@ -16,6 +16,6 @@ import { LeagueTableComponent } from './league-table/league-table.component';
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, LeagueTableComponent]
 })
 export class AppModule { }
