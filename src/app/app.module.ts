@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LeagueTableComponent } from './league-table/league-table.component';
@@ -13,6 +14,7 @@ import { LeagueTableComponent } from './league-table/league-table.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+
 
   ],
   providers: [],

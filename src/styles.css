@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.body{
+  background-image: url(https://bi.im-g.pl/im/90/d2/14/z21833104IH,Zakonczono-modernizacje-stadionu-Khalifa-Internati.jpg);
+  background-size: cover;
+  height: auto;
+  height:100%;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  min-width: 400px;
+
+}
+

@@ -1,22 +1,28 @@
-
-.body{
-  background-image: url('/src/app/obrazTla.jpg');
-
-}
-.header{
-
+.header {
+color:black;
   margin-bottom: 0%;
 }
-h1{
 
+h1 {
+  color: white;
   text-align: center;
 }
 
-footer{
+.footer {
+  color: black;
+width: 100%;
+height: auto;
+  position: static;
+  margin-top: 23.5%;
+  margin-bottom: 0%;
   text-align: center;
 }
-.container{
 
-text-align: center;
-  }
+.container {
+color: black;
+  text-align: center;
+}
 
+h3{
+  color: white;
+}
