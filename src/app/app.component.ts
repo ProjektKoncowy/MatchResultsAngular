@@ -21,6 +21,9 @@ export class AppComponent {
     this.allMatches$ = this.matchesService.matchesArray$;
   }
 
+  updateResults() {
+    console.log('click');
+  }
 
 }
 
@@ -33,4 +36,5 @@ export interface Match {
   matchDate: string;
   matchTime: string;
   state: string;
+  lastUpdate:string;
 }
