@@ -17,8 +17,9 @@
           <app-league-table></app-league-table>
         </div>
         <div class="col-8">
-          <h3> Jakieś wyniki meczów<br>
-            Home 3:0 Away</h3>
+          <h3 *ngFor="let match of allMatches$ | async "> {{match.competitionName}}<br>
+            {{match.homeClubName}} {{match.result}} {{match.awayClubName}} <p *ngIf="match.state.toString()=='100'">finished</p></h3>
+
 
         </div>
       </div>
